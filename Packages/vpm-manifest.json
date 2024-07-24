@@ -5,6 +5,21 @@
     },
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29"
+    },
+    "vrchat.blackstartx.gesture-manager": {
+      "version": "3.9.1"
+    },
+    "dev.vrlabs.av3manager": {
+      "version": "2.0.32"
+    },
+    "com.llealloo.audiolink": {
+      "version": "1.4.0"
+    },
+    "com.vrcfury.vrcfury": {
+      "version": "1.991.0"
+    },
+    "io.github.rurre.pumkinsavatartools": {
+      "version": "1.4.4"
     }
   },
   "locked": {
@@ -20,6 +35,30 @@
     },
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29",
+      "dependencies": {}
+    },
+    "vrchat.blackstartx.gesture-manager": {
+      "version": "3.9.1",
+      "dependencies": {
+        "com.vrchat.avatars": ">=3.5.2 < 3.7.X"
+      }
+    },
+    "dev.vrlabs.av3manager": {
+      "version": "2.0.32",
+      "dependencies": {
+        "com.vrchat.avatars": "3.2 - 3.6"
+      }
+    },
+    "com.llealloo.audiolink": {
+      "version": "1.4.0",
+      "dependencies": {}
+    },
+    "com.vrcfury.vrcfury": {
+      "version": "1.991.0",
+      "dependencies": {}
+    },
+    "io.github.rurre.pumkinsavatartools": {
+      "version": "1.4.4",
       "dependencies": {}
     }
   }
